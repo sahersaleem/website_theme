@@ -24,4 +24,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+
+  h1{
+    @apply text-xl sm:text-4xl md:text-5xl leading-tight mb-4 text-neutral-900
+  }
+  h2 {
+    @apply text-3xl md:text-4xl font-bold text-neutral-900
+  }
+  p{
+    @apply text-sm md:text-base text-neutral-600 mb-6
+  }
+  .para{
+    @apply text-xl text-neutral-500
+  }
+  a{
+    @apply text-black px-3 py-1 text-sm font-medium hover:text-white hover:bg-black rounded-full transition
+  }
+  button{
+   @apply flex items-center font-medium px-4 py-2 rounded-full transition bg-black text-white hover:bg-neutral-800 border border-black/50 shadow text-sm md:text-base 
+  }
 }
