@@ -9,14 +9,49 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        black:"#000000",
-        gray:"#F3F4F6",
-        light_purple:"#F3F4F6"
+        gray:"var('--gray')",
+        background:"var('--background')",
+        forground:"var('--foreground')",
+        purple:"var('--purple')"
       },
       screens:{
-        xs:'200px'
-      }
+        'xs': '360px',   
+        'sm': '640px',    
+        'md': '768px',   
+        'lg': '1024px',   
+        'xl': '1280px',  
+        '2xl': '1536px',  
+        '3xl': '1920px',
+      },
+      borderRadius: {
+        'xs': '2px',
+        'sm': '4px',
+        'md': '6px',
+        'lg': '8px',
+        'xl': '12px',
+        '2xl': '16px',
+        '3xl': '24px',
+        'full': '9999px',
+      },
+     borderWidth: {
+        '1': '1px',
+        '3': '3px',
+        '5': '5px',
+        '6': '6px',
+        '8': '8px',
+        '10': '10px',
+      },
+      fontSize: {
+        h1: ['3rem', { lineHeight: '1rem' }], 
+        h2: ['2.25rem', { lineHeight: '2.5rem' }], 
+        h3: ['1.125rem', { lineHeight: '1.75rem' }],
+      },
       
+      boxShadow: {
+        'sm': '0 1px 2px rgba(0, 0, 0, 0.05)',
+        'md': '0 4px 6px rgba(0, 0, 0, 0.1)',
+        'xl': '0 20px 25px rgba(0, 0, 0, 0.15)',
+      },
     },
   },
   plugins: [],
