@@ -42,9 +42,15 @@ const config: Config = {
         '10': '10px',
       },
       fontSize: {
-        h1: ['3rem', { lineHeight: '1rem' }], 
+        a:['0.87rem', {lineHeight:'1.25rem'}],
+        h1: ['3.75rem', { lineHeight: '1rem' }], 
         h2: ['2.25rem', { lineHeight: '2.5rem' }], 
         h3: ['1.125rem', { lineHeight: '1.75rem' }],
+        h4:['1.5rem' , {lineHeight:'2rem'}],
+        p:['1.25rem',{lineHeight:'1.75rem'}],
+        btn:['1.125rem' , {lineHeight:'1.75rem'}],
+        base:['0.875rem',{lineHeight:'1.25rem'}],
+        blockquote:['1.5rem' , {lineHeight:'2rem'}]
       },
       
       boxShadow: {
